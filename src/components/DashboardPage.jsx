@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 
-const API_URL = 'http://localhost:3000'
+const API_URL = 'https://lead-management-system-backend-r12h.onrender.com/'
 
 function DashboardPage({ token, user, onLoginExpired }) {
   const navigate = useNavigate()

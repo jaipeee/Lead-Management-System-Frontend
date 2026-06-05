@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3000'
+const API_URL = import.meta.env.VITE_API_URL || 'https://lead-management-system-backend-r12h.onrender.com/'
 
 function LoginPage({ flashMessage, onLoginSuccess }) {
   const [email, setEmail] = useState('')
