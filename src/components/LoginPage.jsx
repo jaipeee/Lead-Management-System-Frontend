@@ -47,7 +47,7 @@ function LoginPage({ flashMessage, onLoginSuccess }) {
     <main className="min-h-screen bg-slate-100 px-4 py-10 text-slate-900">
       <section className="mx-auto w-full max-w-md">
         <div className="mb-6">
-          <p className="text-sm font-medium text-slate-500">Lead Management</p>
+          <p className="text-sm font-medium text-slate-500">Lead Management System</p>
           <h1 className="mt-2 text-3xl font-semibold">Login</h1>
         </div>
 
@@ -93,6 +93,12 @@ function LoginPage({ flashMessage, onLoginSuccess }) {
           </button>
         </form>
       </section>
+      <footer className="mt-8 text-center text-xs text-slate-500">
+        <p>Lead Management System</p>
+        <p>Collects and manages leads from multiple sources including Facebook, Instagram, Google Ads, and website forms automatically.</p>
+        <p>Please wait a few seconds for the server to start.</p>
+        <p>Project made by Jaipratap Raj.</p>
+      </footer>
     </main>
   )
 }
